@@ -1,0 +1,28 @@
+{
+  "name": "mybacktwitter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "description": "proyecto de twitter",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres100r/Twitter.git"
+  },
+  "author": "Katherine Torres Vega, Nasly Gordillo, Andres rodriguez Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andres100r/Twitter/issues"
+  },
+  "homepage": "https://github.com/andres100r/Twitter#readme"
+}
