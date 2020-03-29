@@ -19,7 +19,10 @@ async function createUser (req, res) {
     ).catch (
         e => {
             console.log(e);// imprimir error en la consola
-            res.status(500).send({ message: "Some error occurred" });// mensaje de error
+            res.status(500).send({ message: "*******rror occurred********" });// mensaje de error
         }
     );
 }
+
+
+exports.createUser = createUser;
