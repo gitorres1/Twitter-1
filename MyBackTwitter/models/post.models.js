@@ -8,7 +8,7 @@ module.exports = (sequelize, Sequelize) =>{
             message: Sequelize.STRING,
             creation_date: Sequelize.DATE
         },{
-            tableName: "post"
+            tableName: "posts"
         }
     
     );
