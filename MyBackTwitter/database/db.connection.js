@@ -23,3 +23,4 @@ dbconfig.PASSWORD,
 
 
 module.exports = sequelizeConnetion;
+
