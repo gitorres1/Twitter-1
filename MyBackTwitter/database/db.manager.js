@@ -12,7 +12,7 @@ const PostModel = require ('../models/post.models');
 const User= UserModel (sequelizeConnection, Sequelize);
 const Post= PostModel (sequelizeConnection, Sequelize);
 
-
+//forangkey
 User.hasMany(Post, { foreignKey: 'idPost', sourceKey: 'idUser' });
 Post.belongsTo( User, { foreignKey: 'idUser', sourceKey: 'idPost' });
 
